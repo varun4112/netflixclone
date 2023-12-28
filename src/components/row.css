@@ -1,0 +1,40 @@
+.movies_row img{
+    max-height: 150px;
+    transition:  transform 460ms;
+}
+
+.movie-poster{
+    height: 350px;
+}
+
+.movies_row img:hover{
+    transform: scale(1.06);
+}
+
+.row{
+    margin: 10px;
+}
+
+.row h3{color: white;
+
+}
+
+.movies_row{
+    display: flex;
+    margin-left: 20px;
+    overflow-x:scroll ;
+}
+
+.movie-poster{
+    display: flex;
+    margin-left: 20px;
+    overflow-x:scroll ;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.movie-poster{
+    height: 350px;
+}
